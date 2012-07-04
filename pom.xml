@@ -8,7 +8,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<mvnrepo.baseDir>${user.dir}/Java/projects/ithaka-maven.gh-pages</mvnrepo.baseDir>
+		<mvnrepo.baseDir>${user.home}/Java/projects/ithaka-maven.gh-pages/mvnrepo</mvnrepo.baseDir>
 	</properties>
 
 	<distributionManagement>
