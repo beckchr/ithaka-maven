@@ -1,0 +1,9 @@
+** Install artifacts manually
+
+	mvn install:install-file -DgroupId=... -DartifactId=... -Dversion=... -Dfile=... -Dpackaging=jar -DlocalRepositoryPath=mvnrepo
+	mvn install:install-file -DgroupId=... -DartifactId=... -Dversion=... -Dfile=... -Dpackaging=jar -DlocalRepositoryPath=mvnrepo -Dclassifier=sources
+
+** Update index files
+
+	bash .update-directory-index.sh mvnrepo
+
