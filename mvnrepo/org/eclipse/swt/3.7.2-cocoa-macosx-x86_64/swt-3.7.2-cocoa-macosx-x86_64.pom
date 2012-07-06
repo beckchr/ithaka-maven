@@ -4,6 +4,6 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.eclipse</groupId>
   <artifactId>swt</artifactId>
-  <version>3.7.2-cocoa-macosx-x86_64.jar</version>
+  <version>3.7.2-cocoa-macosx-x86_64</version>
   <description>POM was created from install:install-file</description>
 </project>
