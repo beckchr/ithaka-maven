@@ -24,7 +24,7 @@
 	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<mvnrepo.url>file://${user.home}/Java/projects/ithaka-maven.gh-pages/mvnrepo</mvnrepo.url>
+		<mvnrepo.url>file://${user.home}/git/ithaka-maven.gh-pages/mvnrepo</mvnrepo.url>
 	</properties>
 
 	<distributionManagement>
