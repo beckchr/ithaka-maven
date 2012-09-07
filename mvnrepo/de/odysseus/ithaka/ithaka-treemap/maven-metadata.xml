@@ -3,11 +3,12 @@
   <groupId>de.odysseus.ithaka</groupId>
   <artifactId>ithaka-treemap</artifactId>
   <versioning>
-    <release>0.9.5</release>
+    <release>1.0</release>
     <versions>
       <version>0.9</version>
       <version>0.9.5</version>
+      <version>1.0</version>
     </versions>
-    <lastUpdated>20120811080323</lastUpdated>
+    <lastUpdated>20120907121944</lastUpdated>
   </versioning>
 </metadata>
