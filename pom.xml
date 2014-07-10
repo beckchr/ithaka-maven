@@ -22,47 +22,11 @@
 		<url>https://github.com/beckchr/ithaka-maven</url>
 	</scm>
 	
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<mvnrepo.url>file://${user.home}/git/ithaka-maven.gh-pages/mvnrepo</mvnrepo.url>
-	</properties>
-
 	<distributionManagement>
 		<repository>
 			<id>ithaka-deploy</id>
-			<url>${mvnrepo.url}</url>
+			<url>file://${user.home}/git/ithaka-maven.gh-pages/mvnrepo</url>
 		</repository>
 	</distributionManagement>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>2.5.1</version>
-				<configuration>
-					<source>1.6</source>
-					<target>1.6</target>
-					<optimize>true</optimize>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-source-plugin</artifactId>
-				<version>2.1.2</version>
-				<configuration>
-					<excludeResources>true</excludeResources>
-				</configuration>
-				<executions>
-					<execution>
-						<id>attach-sources</id>
-						<goals>
-							<goal>jar</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-		</plugins>
-	</build>
 	
 </project>
